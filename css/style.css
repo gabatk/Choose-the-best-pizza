@@ -16,7 +16,7 @@ body {
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-
+    padding: 40px 0;
     font-family: 'Montserrat', sans-serif;
     background-color: rgb(233, 233, 233);
 }
@@ -77,13 +77,13 @@ body {
 
 .list-structure {
     padding-bottom: 30px;
-    font-size: 1.8rem;
     list-style: none;
 }
 
 .list-item {
     padding: 8px 30px;
     border-bottom: 1px solid rgb(226, 226, 226);
+    font-size: 1.8rem;
     font-weight: bold;
 }
 
@@ -92,5 +92,10 @@ body {
 }
 
 .list-details {
+    font-size: 1.6rem;
     font-weight: normal;
+}
+
+.hidden {
+    display: none;
 }
